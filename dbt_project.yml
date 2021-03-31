@@ -40,8 +40,8 @@ on-run-end: "{{ insert_audits('run_end') }}"
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  pre_hook: "{{ insert_audits('model_start') }}"
-  post_hook: "{{ insert_audits('model_end') }}"
+  # pre_hook: "{{ insert_audits('model_start') }}"
+  # post_hook: "{{ insert_audits('model_end') }}"
   demo_dbt:
       # Applies to all files under models/staging/
       staging:
