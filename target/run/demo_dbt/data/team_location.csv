@@ -1,0 +1,10 @@
+
+    
+    create table DEMO_DB.PUBLIC.team_location (name text, city text, state text)
+  ;
+    -- dbt seed --
+    
+            insert into DEMO_DB.PUBLIC.team_location (name,  city,  state) values
+            (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)
+        
+  

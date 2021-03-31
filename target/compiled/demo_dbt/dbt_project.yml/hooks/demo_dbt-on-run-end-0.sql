@@ -1,0 +1,1 @@
+insert into DEMO_DB.PUBLIC.dbt_audits (audit_type) values ('run_end'); commit;
